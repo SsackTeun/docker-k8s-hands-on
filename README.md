@@ -8,3 +8,7 @@
 ## window git 설치
 
 [윈도우에서 git 설치 방법](https://coding-factory.tistory.com/245)
+
+## window terminal 에서 git bash 사용하기
+
+[window terminal + git bash](https://notes.hphk.io/p/git-bash-with-windows-terminal/)
