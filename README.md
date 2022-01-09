@@ -4,3 +4,7 @@
 ## window + docker 설치
 
 [윈도우에서 도커 설치 방법](https://www.lainyzine.com/ko/article/a-complete-guide-to-how-to-install-docker-desktop-on-windows-10/)
+
+## window git 설치
+
+[윈도우에서 git 설치 방법](https://coding-factory.tistory.com/245)
