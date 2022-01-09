@@ -12,3 +12,7 @@
 ## window terminal 에서 git bash 사용하기
 
 [window terminal + git bash](https://notes.hphk.io/p/git-bash-with-windows-terminal/)
+
+## vagrant 설치
+
+[vagrant 설치](https://www.vagrantup.com/downloads)
