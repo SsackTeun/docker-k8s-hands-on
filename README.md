@@ -15,6 +15,11 @@
 
 [window terminal + git bash](https://notes.hphk.io/p/git-bash-with-windows-terminal/)
 
+## wsl2 에서 Ubuntu 20.04 설치
+
+https://docs.microsoft.com/ko-kr/windows/wsl/install-manual#step-6---install-your-linux-distribution-of-choice
+
+
 ## vagrant 설치
 
 [vagrant 설치](https://www.vagrantup.com/downloads)
