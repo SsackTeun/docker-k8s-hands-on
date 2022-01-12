@@ -1,0 +1,8 @@
+# nginx image를 사용(태그가 없으면 latest)
+FROM nginx
+
+# index.html 파일을 컨테이너 내부에 복사
+COPY index.html /usr/share/nginx/html
+
+# 80 포트 오픈
+EXPOSE 80
