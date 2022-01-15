@@ -4,7 +4,8 @@
 Vagrant.configure("2") do |config|
     M = 1 # max number of master nodes
     W = 3 # max number of worker nodes
-    VER = '1.18.4' # k8s Version
+    # VER = '1.18.4' # k8s Version
+    VER = '1.20.14'
 
     (1..M).each do |i|
         config.vm.define "m#{i}-k8s.snetsystems.co.kr" do |config|
@@ -12,7 +13,7 @@ Vagrant.configure("2") do |config|
             config.vm.provider "virtualbox" do |vb|
                 vb.name = "m#{i}-k8s.snetsystems.co.kr"
                 vb.cpus = 2
-                vb.memory = 2048
+                vb.memory = 4096
             end
             config.vm.hostname = "m#{i}-k8s.snetsystems.co.kr"
             config.vm.network "private_network", ip: "192.168.1.1#{i}"
@@ -30,7 +31,7 @@ Vagrant.configure("2") do |config|
             config.vm.provider "virtualbox" do |vb|
                 vb.name = "w#{i}-k8s.snetsystems.co.kr"
                 vb.cpus = 1
-                vb.memory = 1024
+                vb.memory = 2048
             end
             config.vm.hostname = "w#{i}-k8s.snetsystems.co.kr"
             config.vm.network "private_network", ip: "192.168.1.2#{i}"

@@ -26,5 +26,6 @@ https://docs.microsoft.com/ko-kr/windows/wsl/install-manual#step-6---install-you
 ## 윈도우 Issues
 
 [Virtualbox 버전 6.1.2 설치(다운그레이드)](https://www.virtualbox.org/wiki/Download_Old_Builds_6_1)
+
 [vagrant plugin](https://www.devopsroles.com/vagrant-no-virtualbox-guest-additions-installation-found-fixed/)
 

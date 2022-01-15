@@ -9,5 +9,5 @@ yum install git -y
 yum install docker -y && systemctl enable --now docker
 
 # install kubernetes cluster 
-yum install kubectl-$1 kubelet-$1 kubeadm-$1 -y
+yum install -y kubectl-$1 kubelet-$1 kubeadm-$1 --disableexcludes=kubernetes
 systemctl enable --now kubelet
