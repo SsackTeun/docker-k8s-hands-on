@@ -4,8 +4,7 @@
 Vagrant.configure("2") do |config|
     M = 1 # max number of master nodes
     W = 3 # max number of worker nodes
-    # VER = '1.18.4' # k8s Version
-    VER = '1.20.14'
+    VER = '1.18.4' # k8s Version
 
     (1..M).each do |i|
         config.vm.define "m#{i}-k8s.snetsystems.co.kr" do |config|
