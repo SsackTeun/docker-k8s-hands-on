@@ -3,6 +3,9 @@
 
 # 필요한 프로그램 설치
 
+## Vagrant + k8s 로컬 환경 구축시 주의 사항
+docs 폴더의 '(참고)virtuabox-설치관련.pptx' 참고
+
 ## window + docker 설치
 
 [윈도우에서 도커 설치 방법](https://www.lainyzine.com/ko/article/a-complete-guide-to-how-to-install-docker-desktop-on-windows-10/)
